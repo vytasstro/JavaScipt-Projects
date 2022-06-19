@@ -1,4 +1,4 @@
-# JavaScipt-Projects
+# Web-Development-Projects
 
 Projects that I've made while learning Web development with Javascript, HTML and CSS.
 
