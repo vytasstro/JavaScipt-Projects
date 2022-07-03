@@ -1,0 +1,62 @@
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+body {
+    display:flex;
+    flex-direction: column;
+    justify-content: top;
+    align-items: center;
+    height: 100vh;
+}
+
+#circle{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    width: 500px;
+    border-radius: 30px;
+    border-color: rgb(0, 0, 0);
+    border-style: solid;
+    border-width: 2px;
+    font-size: 2rem;
+    color: rgb(0, 0, 0);
+}
+#todobox{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+#textbox {
+    background-color: aqua;
+    border-color: blue;
+    cursor: pointer;
+}
+
+#submit{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#clear{
+    width: 70px;
+    height: 30px;
+    cursor: pointer;
+}
+
+#enteredgoals{
+    justify-content: center;
+    align-items: center;
+    line-height: 1.5em;
+    display:contents;
+}
+#deleteButton{
+    width: 20px;
+    height: 20px;
+    cursor: pointer;
+}
